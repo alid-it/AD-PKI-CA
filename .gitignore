@@ -1,0 +1,43 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Go build output
+adpki-ca
+*.exe
+*.out
+*.test
+
+# Go workspace / vendor
+vendor/
+go.work
+go.work.sum
+
+# PKI secrets / certificates
+*.key
+*.pem
+*.crt
+*.csr
+*.p12
+*.pfx
+
+# Runtime data
+data/
+logs/
+tmp/
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.claude
+.gitlab-ci.yml
